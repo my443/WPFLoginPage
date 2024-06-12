@@ -19,6 +19,8 @@ namespace LoginWPF
         public MainWindow()
         {
             InitializeComponent();
+            string userName = Environment.UserName;
+            UserName.Text = userName;
         }
 
         private void LoginBtn_Click(object sender, RoutedEventArgs e)

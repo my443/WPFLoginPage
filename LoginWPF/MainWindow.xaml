@@ -53,13 +53,13 @@
                   Width="255"
                   BorderThickness="0,0,0,1"
                   HorizontalAlignment="Left"
-                  Text="MP Codes"/>
+                  Text="Username"/>
                     <TextBlock Text="Password" 
                    Grid.Row="2"
                    Margin="0,15"
                    HorizontalAlignment="Left"/>
                     <PasswordBox x:Name="PasswordBox" Grid.Row="3"
-                      Password="mpcodes"
+                      Password="password"
                       Padding="0,5"                           
                       Width="255"
                       BorderThickness="0,0,0,1"
